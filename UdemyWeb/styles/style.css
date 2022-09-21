@@ -1,0 +1,93 @@
+.purple-text {
+    color: #442d4d;
+}
+.yellow-text{
+    color: #f3d000;
+}
+
+.grey-text {
+    color: #ddd4e0;
+
+}
+.tac {
+    text-align: center;
+}
+
+.purple-background {
+    margin: 0px;
+    padding: 0px;
+    background-color:  #442d4d;
+}
+ 
+.navigation-links {
+    margin-top: 30px ;
+    margin-right: 30px;
+    float: right;
+}
+
+.navigation-link {
+    color: #f3d000;
+    font-size: 25px;
+    text-decoration: none !important;
+    padding-right: 20px;
+    font-weight: normal;
+    transition: color 0.5s ease;
+}
+
+.navigation-link:hover {
+    color: #ddd4e0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #442d4d;
+    color: #ddd4e0;
+    text-align: center;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.width-100 {
+    width: 100%;
+}
+
+.display-if {
+
+    display: inline-flex;
+}
+
+.width-30 {
+    width: 30%;
+}
+.contact-question {
+    background-color: rgb(225, 225, 225, 0.1);
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.contact-question-title {
+    color: #f3d000;
+    font-size: 25px;
+
+}
+
+.button-yellow {
+    background-color: #f3d000;
+    border: none;
+    color: #442d4d;
+    padding: 5px 25px 5px 25px;
+    transition: 0.5s;
+}
+
+.button-yellow:hover {
+    background-color: #ddd4e0;
+    border: none;
+    color: #442d4d;
+    padding: 5px 25px  5px 25px ;
+}

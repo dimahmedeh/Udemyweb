@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+        body {
+            font-family:Times New Roman;
+            background-image: url('../images/dark-purple-color-solid-background-1920x1080.png');
+            background-attachment: fixed;
+            background-size: 100% 100%; }
+ 
+    </style>
+    <script> function Questionsent() {
+        alert ("Your question has ben sent")
+    } </script>
+</head>
+<body>
+    <!-- header-->
+    <div>
+        <a href="home.html">
+        <img src="../images/logo.jpg" alt="logo not loaded" height="40"> </a>
+        <div class="navigation-links">
+            <a href="home.html" class="navigation-link"> Home </a>
+            <a href="about.html" class="navigation-link"> About </a>
+            <a href="course.html" class="navigation-link"> Course </a>
+            <a href="contact.html" class="navigation-link" > Contact </a>
+
+        </div>
+    </div>
+    <!-- Midlle-->
+    <div>
+        <div class="width-100 display-if">
+        <!--map-->
+        <div class="width-100">
+            <iframe width="100%"
+             height="410" 
+             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=corniche%20el%20mazraa,%20russien%20embassay+(arabia%20law%20firm)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              <a href="https://www.maps.ie/distance-area-calculator.html">GOOGLE map raduis</a>
+            </iframe></div>
+            
+<!--question -->
+    <div class="width-100 contact-question" >
+        <span class="contact-question-title"> send us a question </span>
+        <form action="" method="get" target="self" class="yellow-text"> 
+             Name : <br> <input type="text" name="nameField" class="width-30" required/>
+        <br> surname : <br> <input type="text" name="surnameField"class="width-30" required/>
+     <br>   Age : <br> <input type="date" name="ageField" class="width-30" value="1999-01-01" max="2019-05-05" required/> <br>
+     Gender: <br> 
+     Male <input type="radio" name="gender" value="male"> Female <input type="radio" name="gender" value="Female" checked>
+   <br> Tel: <br> <input type="tel" name="TelField"class="width-30" pattern="" placeholder="123-123-123" required>
+ <br>  Type of question: <br> <select name="typeField"class="width-30" required>
+    <option value="course"  > Question about Course!</option>
+    <option value="lesson" selected > question  about lesson</option>
+
+ </select> <br> Question: <br> <textarea name="QuestionField" rows="5" class="width-30" minlength="3" required></textarea> <br>
+ <input type="submit" value="SEND" class="button-yellow" onclick="Questionsent()"> <input type="reset" value="Reset" class="button-yellow">
+    </form>
+    </div>
+    </div><div class="grey-text">
+        <b> Our adress is: </b>
+        <address> Cornich mazraa , al gondole bldg , 5fl</address>
+    </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div>
+            <a href="">
+            <img src="../images/fblogo.png" alt="fb not loaded" height="50"> </a>
+            <a href="">
+                <img src="../images/linkedin.png" alt="linkedin not loaded" height="50"> </a>
+                <a href="">
+                    <img src="../images/Twitter.png" alt="Twitter not loaded" height="50"> </a>
+        </div>
+        <p class="mt-0">  Copyright &COPY;<a href="mailto: dimahmede@gmail.com" class="grey-text"> masterMinde  </a><sup>  &reg; </sup> </p>
+    </div>
+
+</body>
+</html>
